@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar {
+  margin-bottom: 1.5rem;
+}
+
+.nav-bar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+}
+
+form {
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form input, select, button {
+    height: 45px;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+button {
+    background-color: rgb(196, 196, 236);
+}
+
+form p.calc-error {
+  color: red !important;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+form .calc-result {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+
