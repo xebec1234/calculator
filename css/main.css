@@ -23,23 +23,6 @@ main {
   align-items: center;
 }
 
-.nav-bar {
-  margin-bottom: 1.5rem;
-}
-
-.nav-bar ul{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 8rem;
-}
-
-.nav-bar a{
-  text-decoration: none;
-  color: #333;
-  font-weight: bolder;
-}
-
 form {
     height: 60vh;
     width: 30vw;

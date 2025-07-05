@@ -1,0 +1,28 @@
+
+.nav-bar {
+  margin-bottom: 1.5rem;
+}
+
+.nav-bar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+}
+
+.nav-bar a.active {
+  background: rgb(196, 196, 236);
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  box-shadow:
+    inset 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.6);
+  transition: all 0.2s ease-in-out;
+}

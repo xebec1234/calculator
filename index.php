@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav-bar.css">
   <title>Calculator 1</title>
 </head>
 <body>
   <main>
     <div class="container">
+      <?php $currentpage = basename($_SERVER["PHP_SELF"]); ?>
       <nav class="nav-bar">
         <ul>
-          <li><a href="index.php">Level 1</a></li>
+          <li><a href="index.php" class="<?= $currentpage === 'index.php' ? 'active' : '' ?>">Level 1</a></li>
           <li><a href="upgraded-calculator.php">Level 2</a></li>
           <li><a href="404.php">Level 3</a></li>
         </ul>
