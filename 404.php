@@ -1,4 +1,3 @@
-<!-- 404.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,6 @@
 </head>
 <body>
   <div class="card">
-    <!-- Fun coding GIF -->
     <img src="https://media.giphy.com/media/QHE5gWI0QjqF2/giphy.gif" alt="404 GIF" />
     <h1>404</h1>
     <p>The Scientific Calculator is not yet developed.<br><strong>Coming soon...</strong></p>
